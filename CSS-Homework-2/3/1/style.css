@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+header .container a {
+    text-decoration: none;
+}
+
+header .container h2 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header .container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header .container ul li span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .container ul li img {
+    margin-top: 5px;
+}
+
+header .container .profile {
+    display: flex;
+    gap: 9px;
+}
+
+header .container .profile button {
+    border-radius: 30px;
+    background: #EF233C;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.1s linear;
+}
+
+header .container .profile button:hover {
+    color: #000;
+    background: #fff;
+}
+
+header .container .profile button:active {
+    scale: 0.95;
+}
+
+/* -------------------------------------------- */
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+
+main .container .text-container h1 {
+    color: #000;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-top: 60px;
+    width: 770px;
+}
+
+main .container .text-container p {
+    color: #A5A5A5;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    width: 681px;
+}
+
+main .container .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+main .container .content-container button {
+    border-radius: 30px;
+    background-color: #EF233C;
+    cursor: pointer;
+    padding: 15px 24px;
+    border: 1px solid transparent;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    margin-top: 96px;
+    transition: all 0.1s linear;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main .container .content-container button:hover {
+    color: #000;
+    background: #fff;
+}
+
+main .container .content-container button:active {
+    scale: 0.95;
+}
+
+main .container .content-container a {
+    text-decoration: none;
+}
+
+main .container .content-container span {
+    color: #EF233C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main .container .content-container a:active {
+    scale: 0.95;
+}

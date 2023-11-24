@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+body {
+    background-color: #2F1893;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    border-bottom: 1px solid rgba(235, 234, 237, 0.3);
+    padding: 50px 0 44px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 41px;
+    list-style: none;
+}
+
+nav .container ul li a {
+    text-decoration: none;
+}
+
+nav .container ul li span {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav .container ul li span.active {
+    color: #fff;
+}
+
+nav .container h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.293px;
+}
+
+nav .container .profile {
+    display: flex;
+    gap: 35px;
+}
+
+nav .container .profile button {
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 7px 25px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.1s linear;
+}
+
+nav .container .profile button:hover {
+    border-color: transparent;
+}
+
+nav .container .profile button:active {
+    scale: 0.95;
+}
+
+/* ------------------------------------------------ */
+.menu {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 135px;
+}
+
+.menu .menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu .menu-container img {
+    align-self: start;
+    height: 52px;
+}
+
+.menu .menu-container .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.menu .menu-container .text-container h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.menu .menu-container .text-container p {
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    font-weight: 400;
+    word-spacing: 1px;
+    width: 170px;
+}
